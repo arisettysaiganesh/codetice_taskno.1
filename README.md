@@ -27,3 +27,47 @@ You can install these dependencies using `pip`:
 
 ```bash
 pip install Flask Flask-SQLAlchemy shortuuid
+
+
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/url-link-shortener.git
+cd url-link-shortener
+```
+
+2. Run the application:
+
+```bash
+python app.py
+```
+
+3. Open a web browser and navigate to `http://localhost:5000` to access the URL link shortener.
+
+4. Enter a long URL, and the application will generate a shortened URL for you.
+
+5. You can also access previously shortened URLs by visiting `http://localhost:5000/<short_url>`.
+
+## Contributing
+
+If you would like to contribute to this project, please open an issue or submit a pull request. Your contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- Arisetty Sai Ganesh
+
+## Acknowledgments
+
+- This project is developed for Codetice Company as a task.
+- Thanks to Flask and SQLAlchemy for making web development with Python easy and efficient.
+- Bootstrap is used for the frontend design.
+```
+
+Replace `yourusername` with your actual GitHub username in the clone URL. You can further customize this README to add more details or specific instructions as needed.
